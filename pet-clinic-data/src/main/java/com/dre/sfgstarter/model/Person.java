@@ -1,6 +1,5 @@
 package com.dre.sfgstarter.model;
 
-
 public class Person {
 
     private String firstName;

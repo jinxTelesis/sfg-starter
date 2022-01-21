@@ -1,4 +1,4 @@
-package com.dre.sfgstarter;
+package com.dre.sfgstarter.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

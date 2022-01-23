@@ -4,13 +4,12 @@ import com.dre.sfgstarter.model.Owner;
 
 import java.util.Set;
 
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner,Long>{
 
     Owner findByLastName(String lastName);
-
-    Owner findbyId(Long id);
-
-    Owner save(Owner owner);
-
-    Set<Owner> findAll();
+//    Owner findById(Long id);
+//
+//    Owner save(Owner owner);
+//
+//    Set<Owner> findAll();
 }
